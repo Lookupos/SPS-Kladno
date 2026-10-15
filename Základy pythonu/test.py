@@ -1,9 +1,12 @@
-vek = int (input ("napiš svůj věk: "))
-if vek >= 18:
-    print("jseš dospělý")
-if vek >= 15:
-    print("jsi teenager")
-    if vek >0:
-        print("jsi děcko")
-        if vek <0:
-            print("co kecáš")
+x = "5"
+y = "50"
+string = "SOučEt ČíseL x = {} a Y = {} Je {}"
+### řádky výše NEMĚNIT ###
+# Váš kód sem 👇
+x = int(x)
+y = int(y)
+
+x = x * y
+
+string = string.lower()
+string = string.format(x, y, x)
